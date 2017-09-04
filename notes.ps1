@@ -7,7 +7,6 @@ Get-Module
 help about*
 help -Category All
 help about_Automatic_Variables
-
 help about* | grep.exe -i if
 
 Get-Service | Out-File -FilePath ~\services.txt
@@ -42,4 +41,7 @@ Invoke-WebRequest -Uri http://search.twitter.com/search.json?q=PowerShell | Conv
 (Get-Content JsonFile.JSON) -join "`n" | ConvertFrom-Json
 
 
+
+// remote web console
+https://docs.microsoft.com/en-us/powershell/scripting/core-powershell/web-access/use-the-web-based-windows-powershell-console?view=powershell-5.1
 
