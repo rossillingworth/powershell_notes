@@ -1,0 +1,18 @@
+#
+#
+# This is the comment part
+#
+#
+
+// this is a line comment
+
+/**
+ * this is another comment
+ */
+
+
+something=_replacable
+something=$replacable
+something=#replacable
+something=%replacable%
+
